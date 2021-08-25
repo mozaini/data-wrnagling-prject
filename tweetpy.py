@@ -9,10 +9,10 @@ import json
 df = pd.read_csv('dataset'+ '/'+'twitter-archive-enhanced.csv', parse_dates=True)
 
 
-ACCESS_TOKEN = "1235133671851601920-sN4bWU6RDTydw57nqVDxwQfAvzam2J"  
-ACCESS_TOKEN_SECRET = "zySb7dmbCFRKOIE1RyK07NhUC16ZGWgd9lvFJoQmtFbuL"  
-CONSUMER_KEY = "JFo7yOJ5q4OssR9LNuekFJmZh" 
-CONSUMER_SECRET = "5npceXl51epMWcIeqc4b20ss8FqOeCEX2NkpY1nniR7Zf69uBM"
+ACCESS_TOKEN = ""  
+ACCESS_TOKEN_SECRET = ""  
+CONSUMER_KEY = "" 
+CONSUMER_SECRET = ""
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
